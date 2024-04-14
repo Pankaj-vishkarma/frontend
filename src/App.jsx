@@ -9,7 +9,7 @@ function App() {
 
 
   useEffect(()=>{
-    axios.get('https://backend-8e9k.vercel.app/api/movie')
+    axios.get('https://backend-one-navy.vercel.app/api/movie')
     .then((res)=>{
       setmovie(res.data)
     })
